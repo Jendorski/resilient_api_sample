@@ -1,0 +1,24 @@
+{
+  "name": "resilient_api_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sd": "npx tsc && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.6",
+    "axios": "^1.8.1",
+    "axios-retry": "^4.5.0",
+    "opossum": "^8.4.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/async": "^3.2.24",
+    "@types/opossum": "^8.1.8"
+  }
+}
